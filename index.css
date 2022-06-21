@@ -91,7 +91,7 @@ body {
   background-color: #252526;
   height: 16rem;
   max-width: 20rem;
-  transform: translate(-150%);
+  transform: translate(-50%);
   display: flex;
   flex-direction: column;
   margin-left: -3rem;

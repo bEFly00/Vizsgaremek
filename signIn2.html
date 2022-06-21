@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign in</title>
+  <link rel="stylesheet" href="./signIn2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="row-header">
+        <div class="col">
+          <img src="./Pics/Logo.png" alt="Logo" title="Logo" class="logo">
+        </div>
+      </div>
+    </header>
+    <section>
+      <form>
+        <div class="row">
+          <div class="column-center column">
+            <div class="column">
+              <label for="email">E-mail address</label>
+              <input type="email" name="email" required id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column-center column">
+            <div class="column">
+              <label for="password">Password</label>
+              <input type="password" required name="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="signInBtn column">
+            <button type="submit">
+              Sign In
+            </button>
+          </div>
+        </div>
+      </form>
+
+    </section>
+    <footer>© 2022 CryptoWatcher</footer>
+  </div>
+</body>
+
+</html>

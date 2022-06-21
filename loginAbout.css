@@ -1,0 +1,48 @@
+*{
+    --header-height: 6rem;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-padding-top: var(--header-height);
+  }
+  
+  body{
+      background-color: #504E4E;
+      width: 90%; 
+      margin: 0 auto;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 1.2rem;
+      color: white;
+  }
+  .row-header{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding-top: 0.5rem;
+      border-bottom: 2px solid #636161;
+  }
+  .burgerMenu{
+      margin-top: 1.5rem;
+      z-index: 1;
+  }
+  .burgerCheck{
+      width: 2rem;
+      height: 2rem;
+      display: block;
+      z-index: 1;
+      position: absolute;
+      top: 1.2rem;
+      left: 22.5rem;
+      opacity: 0;
+      cursor: pointer;
+  }
+  .aboutField{
+    margin-top: 2rem;
+  }
+  .aboutField p{
+    margin-top: 2rem;
+  }
+  footer {
+    text-align: right;
+    margin: 2rem 1rem;
+} 
