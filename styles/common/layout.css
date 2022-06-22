@@ -1,0 +1,45 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1 0 0%;
+  flex-direction: column;
+  display: flex;
+}
+
+.col {
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.col-6 {
+  width: calc(100% / calc(12 / 6));
+}
+
+.column-center {
+  align-items: center;
+}
+
+.row + .row {
+  margin-top: 1.5rem;
+}
+
+.column-span-3 {
+  margin-left: 5.45rem;
+}
+
+.row-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  border-bottom: 2px solid #636161;
+}

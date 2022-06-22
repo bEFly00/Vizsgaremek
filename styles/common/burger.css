@@ -1,0 +1,16 @@
+.burger-menu {
+  margin-top: 1.5rem;
+  z-index: 1;
+}
+
+.burger-check {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  z-index: 2;
+  position: absolute;
+  top: 1.2rem;
+  left: 22.5rem;
+  opacity: 0;
+  cursor: pointer;
+}

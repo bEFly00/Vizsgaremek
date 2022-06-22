@@ -1,3 +1,15 @@
 {
+    "[css]": {
+      "editor.defaultFormatter": "stylelint.vscode-stylelint"
+    },
+    "css.validate": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.stylelint": true
+    },
+    "editor.formatOnSave": true,
+    "editor.linkedEditing": true,
+    "editor.tabSize": 2,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
     "liveServer.settings.port": 5501
 }
