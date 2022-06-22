@@ -1,0 +1,20 @@
+@import "./common/all.css";
+
+.sign-in-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-in-btn button {
+  width: 10rem;
+  height: 3rem;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  background-color: #e7b811;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}

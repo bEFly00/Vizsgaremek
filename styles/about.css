@@ -1,0 +1,13 @@
+@import "./common/all.css";
+
+.about-field {
+  margin-top: 2rem;
+}
+
+.about-field p {
+  margin-top: 2rem;
+}
+
+.about-field h2 {
+  z-index: -1;
+}

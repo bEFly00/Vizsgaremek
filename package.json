@@ -1,0 +1,12 @@
+{
+  "name": "vizsgaremek",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "stylelint": "^14.9.1",
+    "stylelint-config-standard": "^26.0.0"
+  }
+}

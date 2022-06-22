@@ -1,0 +1,26 @@
+@import "./common/all.css";
+
+.create-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.create-btn button {
+  width: 10rem;
+  height: 3rem;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  background-color: #e7b811;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1.1rem;
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  color: white;
+}

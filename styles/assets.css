@@ -1,0 +1,30 @@
+@import "./common/all.css";
+
+.balance-field {
+  display: block;
+  margin-top: 2rem;
+}
+
+.balance-field fieldset {
+  margin-top: 1rem;
+  padding: 0.5rem 0 0.5rem 0.5rem;
+  max-width: 8rem;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.my-assets-chart p {
+  margin-top: 3rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid #636161;
+}
+
+.assets-field p {
+  margin-top: 2rem;
+  border-top: 1px solid #636161;
+  padding-top: 0.5rem;
+}
+
+.balance-field h2 {
+  z-index: -1;
+}

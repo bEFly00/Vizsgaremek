@@ -1,0 +1,44 @@
+@import "./common/all.css";
+
+.balance-field {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.balance-field h2 {
+  z-index: -1;
+}
+
+.balance-field i {
+  flex: 0 0 auto;
+  width: calc(100% / calc(12 / 6));
+  align-self: center;
+}
+
+.balance-field fieldset {
+  flex: 1 0 0%;
+  margin-top: 1rem;
+  padding: 0.5rem 0 0.5rem 0.5rem;
+  max-width: 8rem;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.markets {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  border-top: 1px solid #636161;
+  padding-top: 0.5rem;
+}
+
+.markets h2 {
+  flex: 0 0 auto;
+  width: calc(100% / calc(12 / 8));
+}
+
+.markets .table {
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
